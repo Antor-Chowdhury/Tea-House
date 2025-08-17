@@ -22,10 +22,10 @@
       <!-- Banner Section  -->
 
       <div
-        class="parrent_div flex justify-between border-2 border-red-500 min-h-[200px] max-w-[1250px] mx-auto"
+        class="parrent_div flex flex-col md:flex-row justify-between min-h-[200px] max-w-[1250px] mx-auto"
       >
-        <div class="left_div border-2 border-green-500">
-          <h1 class="text-[80px] font-extrabold">
+        <div class="left_div">
+          <h1 class="text-[80px] font-extrabold leading-[100px]">
             It's good <br />
             tea time at The <br />
             Tea House
@@ -35,15 +35,16 @@
             Satisfaction To Your Taste Buds.
           </p>
           <button
-            class="w-[200px] text-xl text-white h-[64px] bg-red-500 rounded-lg"
+            class="w-[200px] text-xl text-white h-[64px] bg-gradient-to-r from-[#ff8938] to-[#ff0000] rounded-lg"
           >
-            Explore More
+            <span>Explore More</span>
+            <span><i class="fa-solid fa-arrow-right -rotate-45"></i></span>
           </button>
         </div>
-        <div class="right_div border-2 border-blue-500">
-          <img src="./images/banner.png" class="" alt="" />
+        <div class="right_div relative">
+          <img src="./images/banner.png" class="relative top-[50px]" alt="" />
           <div
-            class="flex items-center w-[255px] h-[100px] rounded-xl shadow-md"
+            class="flex items-center bg-white rounded-xl shadow-md absolute left-[80px] bottom-[-30px] px-[26px] py-5"
           >
             <span class="text-5xl"><i class="fa-solid fa-star"></i></span>
             <div class="ml-4">
@@ -54,7 +55,24 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <!-- Feature Section Starts here -->
+      <section>
+        <h1>Our Featured Products</h1>
+        <p>
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+        <div class="featured_parent">
+          <div class="featured_card">
+            <img src="" alt="" />
+            <h1></h1>
+            <p></p>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
