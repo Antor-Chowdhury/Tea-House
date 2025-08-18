@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea House</title>
 
+    <!-- Css File Link -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+
     <!-- Tailwind CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
@@ -17,7 +20,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
+  <body class="manrope_font">
     <header>
       <!-- Banner Section  -->
 
@@ -157,7 +160,7 @@
         class="parent_div max-w-[1250px] mx-auto mb-[130px] h-[1000px] md:h-[600px] flex gap-4 p-5 bg-gradient-to-r from-[#ff8938] to-[#ff0000] rounded-xl flex-col md:flex-row"
       >
         <div
-          class="left_div h-full md:w-1/2 text-white flex justify-center items-center"
+          class="left_div h-full md:w-1/2 text-white flex justify-center items-center bg-[url(./images/bg_cup.png)] bg-no-repeat bg-bottom"
         >
           <div>
             <h1 class="text-5xl font-extrabold">
@@ -251,7 +254,7 @@
             <div class="flex items-center">
               <p class="mr-1 md:mr-10">Ready to get started?</p>
               <button
-                class="bg-red-400 p-3 md:px-6 md:py-4 md:font-bold text-xl rounded-lg text-white"
+                class="bg-red-400 p-3 md:px-6 md:py-4 md:font-bold text-xl rounded-lg text-white bg-gradient-to-r from-[#ff8938] to-[#ff0000]"
               >
                 Get Started
               </button>
@@ -293,10 +296,14 @@
                 placeholder="Email address"
                 class="border-b-1 outline-none pb-2 mt-10 mb-12"
               />
-              <button class="border-2 h-[30px] w-[30px] rounded-full">></button>
+              <button
+                class="h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#ff8938] to-[#ff0000] text-white"
+              >
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
               <div>
                 <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-twitter mx-6"></i>
                 <i class="fa-brands fa-instagram"></i>
               </div>
             </div>
