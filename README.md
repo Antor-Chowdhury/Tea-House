@@ -19,7 +19,6 @@ A responsive, modern, and aesthetically pleasing website for a tea house, built 
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Project Structure](#project-structure)
-- [Acknowledgments](#acknowledgments)
 
 ---
 
