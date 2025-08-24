@@ -1,94 +1,89 @@
-Tea House Website
+# 🍵 Tea House Website
 
-A responsive, modern, and aesthetically pleasing website for a tea house, built with Tailwind CSS and vanilla JavaScript. This project serves as a showcase of front-end development skills, focusing on a clean design, user-friendly interface, and responsive layouts.
-Table of Contents
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-    Features
+A responsive, modern, and aesthetically pleasing website for a tea house, built with Tailwind CSS and vanilla JavaScript. This project showcases front-end development skills with clean design, user-friendly interface, and responsive layouts.
 
-    Technologies Used
+🌐 **Live Demo:** [🚀 View Tea House Website](https://antor-chowdhury.github.io/Tea-House/)
 
-    Getting Started
+---
 
-        Prerequisites
+## Table of Contents
 
-        Installation
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Acknowledgments](#acknowledgments)
 
-    Project Structure
+---
 
-    Acknowledgments
+## Features
 
-Features
+- **Responsive Design:** Fully responsive, adapting to mobile, tablet, and desktop screens.
+- **Modern UI:** Clean, vibrant, and modern user interface with a focus on usability.
+- **Featured Products:** Showcase main tea offerings like Milk Tea, Black Tea, Lemon Tea, and Green Tea.
+- **Client Testimonials:** Visual section for client reviews to build trust.
+- **News & Events:** Dedicated area to share latest news and upcoming events.
+- **Newsletter Subscription:** Footer section with newsletter subscription form.
+- **CSS & Icons:** Tailwind CSS for styling, Font Awesome for icons.
 
-    Responsive Design: The website is fully responsive and adapts to various screen sizes, from mobile devices to desktops.
+---
 
-    Modern UI: A clean, vibrant, and modern user interface designed with a focus on a great user experience.
+## Technologies Used
 
-    Featured Products: A section to showcase the main product offerings, such as Milk Tea, Black Tea, Lemon Tea, and Green Tea.
+- **HTML5** – Core markup language for website structure.
+- **CSS3** – Styling including custom fonts and colors.
+- **Tailwind CSS** – Utility-first framework for responsive UI.
+- **JavaScript (Vanilla)** – Adds interactive functionality.
+- **Font Awesome** – Icon library for social media and features.
 
-    Client Testimonials: A visually engaging section displaying testimonials from clients to build trust and credibility.
+---
 
-    News & Events: A dedicated section to share the latest news and upcoming events.
+## Getting Started
 
-    Newsletter Subscription: A footer section with a newsletter subscription form.
+Follow these steps to get a local copy running.
 
-    CSS & Icons: Uses Tailwind CSS for utility-first styling and Font Awesome for icons.
+### Prerequisites
 
-Technologies Used
+- A modern web browser (Chrome, Firefox, Edge, Safari).
 
-    HTML5: The core markup language for the website.
+### Installation
 
-    CSS3: For styling, including custom rules for fonts and colors.
+1. Clone the repository:
 
-    Tailwind CSS: A utility-first CSS framework used for rapid and responsive UI development.
+```bash
+git clone https://github.com/Antor-Chowdhury/Tea-House.git
+```
 
-    JavaScript (Vanilla): For any interactive functionalities.
+2. Navigate to the project folder:
 
-    Font Awesome: A popular icon library used for social media and feature icons.
+```bash
+cd Tea-House
+```
 
-Getting Started
+3. Open the index.html file in your browser to view the website.
 
-Follow these steps to get a local copy of the project up and running.
-Prerequisites
+## Project Structure
 
-You only need a modern web browser to view and run this project. No additional server setup is required.
-Installation
-
-    Clone the repository:
-
-    git clone https://github.com/your-username/your-repository-name.git
-
-
-
-    Navigate to the project directory:
-
-    cd your-repository-name
-
-
-
-    Open the index.html file:
-    Simply open the index.html file in your preferred web browser to view the website.
-
-Project Structure
-
-├── index.html # The main HTML file of the website
-├── styles.css # Custom CSS for fonts and colors
-├── images/ # Directory for all project images
-│ ├── banner.png
-│ ├── bg_cup.png
-│ ├── client.png
-│ ├── circles.png
-│ ├── fresh-1.png
-│ ├── fresh-2.png
-│ ├── tea-1.png
-│ ├── tea-2.png
-│ ├── tea-3.png
-│ └── tea-4.png
-└── README.md # This file
-
-Acknowledgments
-
-    Thanks to Tailwind CSS for the great framework.
-
-    Icons provided by Font Awesome.
-
-    Images from Unsplash or similar sources (if applicable).
+```
+├── 📝 index.html
+├── 🎨 styles.css
+├── 📁 images/
+│ ├── 🖼 banner.png
+│ ├── 🖼 bg_cup.png
+│ ├── 🖼 client.png
+│ ├── 🖼 circles.png
+│ ├── 🖼 fresh-1.png
+│ ├── 🖼 fresh-2.png
+│ ├── 🖼 tea-1.png
+│ ├── 🖼 tea-2.png
+│ ├── 🖼 tea-3.png
+│ └── 🖼 tea-4.png
+└── 📝 README.md
+```
